@@ -3,6 +3,7 @@ export const cocktails = [
     name: "Vesper",
     glass: "martini",
     category: "Before Dinner Cocktail",
+    img: "",
     ingredients: [
       { unit: "cl", amount: 6, ingredient: "Gin" },
       { unit: "cl", amount: 1.5, ingredient: "Vodka" },
@@ -31,6 +32,8 @@ export const cocktails = [
     name: "Negroni",
     glass: "old-fashioned",
     category: "Before Dinner Cocktail",
+    img:
+      "https://images.unsplash.com/photo-1551751299-1b51cab2694c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1355&q=80",
     ingredients: [
       { unit: "cl", amount: 3, ingredient: "Gin" },
       { unit: "cl", amount: 3, ingredient: "Campari" },
@@ -47,6 +50,8 @@ export const cocktails = [
   {
     name: "Rose",
     glass: "martini",
+    img:
+      "https://www.veggiebuzz.com/admin/wp-content/uploads/2014/09/rose-petal-martini12-1024x1024.jpg",
     ingredients: [
       { unit: "cl", amount: 2, ingredient: "Kirsch" },
       { unit: "cl", amount: 4, ingredient: "Vermouth", label: "Dry vermouth" },
@@ -59,6 +64,8 @@ export const cocktails = [
     name: "Old Fashioned",
     glass: "old-fashioned",
     category: "Before Dinner Cocktail",
+    img:
+      "https://static.cookist.it/wp-content/uploads/sites/21/2018/08/old-fashioned-638x425.jpg",
     ingredients: [
       {
         unit: "cl",
@@ -78,6 +85,8 @@ export const cocktails = [
     name: "Tuxedo",
     glass: "martini",
     category: "All Day Cocktail",
+    img:
+      "https://www.apetime.com/cocktail/wp-content/uploads/2019/07/shutterstock_212374849_risultato.jpg",
     ingredients: [
       { unit: "cl", amount: 3, ingredient: "Gin", label: "Old Tom Gin" },
       { unit: "cl", amount: 3, ingredient: "Vermouth", label: "Dry vermouth" },
@@ -93,6 +102,8 @@ export const cocktails = [
     name: "Mojito",
     glass: "collins",
     category: "Longdrink",
+    img:
+      "https://images.pexels.com/photos/4051209/pexels-photo-4051209.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260",
     ingredients: [
       {
         unit: "cl",
@@ -113,6 +124,8 @@ export const cocktails = [
     name: "Horse's Neck",
     glass: "highball",
     category: "Longdrink",
+    img:
+      "https://www.gustissimo.it/articoli/drink/cocktail-long-drink/cocktail-horse-s-neck.jpg",
     ingredients: [
       { unit: "cl", amount: 4, ingredient: "Cognac" },
       { unit: "cl", amount: 12, ingredient: "Ginger Ale" },
@@ -126,6 +139,8 @@ export const cocktails = [
     name: "Planter's Punch",
     glass: "highball",
     category: "Longdrink",
+    img:
+      "https://dmford.files.wordpress.com/2014/07/wpid12189-planters-punch-0567-1038.jpg?w=1038",
     ingredients: [
       { unit: "cl", amount: 4.5, ingredient: "Dark rum" },
       { unit: "cl", amount: 3.5, ingredient: "Orange juice" },
@@ -143,6 +158,8 @@ export const cocktails = [
     name: "Sea Breeze",
     glass: "highball",
     category: "Longdrink",
+    img:
+      "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/shutterstock-249894499-1541715491.jpg",
     ingredients: [
       { unit: "cl", amount: 4, ingredient: "Vodka" },
       { unit: "cl", amount: 12, ingredient: "Cranberry juice" },
@@ -155,6 +172,8 @@ export const cocktails = [
     name: "Pisco Sour",
     glass: "old-fashioned",
     category: "All Day Cocktail",
+    img:
+      "https://static.cookist.it/wp-content/uploads/sites/21/2019/08/Pisco-sour-638x425.jpg",
     ingredients: [
       { unit: "cl", amount: 4.5, ingredient: "Pisco" },
       { unit: "cl", amount: 3, ingredient: "Lemon juice" },
@@ -203,6 +222,7 @@ export const cocktails = [
     name: "Angel Face",
     glass: "martini",
     category: "All Day Cocktail",
+    img: "http://cocktail.itsplanet.eu/img/cocktail/2017_2.jpg",
     ingredients: [
       { unit: "cl", amount: 3, ingredient: "Gin" },
       { unit: "cl", amount: 3, ingredient: "Apricot brandy" },
@@ -721,6 +741,7 @@ export const cocktails = [
     name: "Americano",
     glass: "old-fashioned",
     category: "Before Dinner Cocktail",
+    img: "http://cocktail.itsplanet.eu/img/cocktail/2017_1.jpg",
     ingredients: [
       { unit: "cl", amount: 3, ingredient: "Campari" },
       { unit: "cl", amount: 3, ingredient: "Vermouth", label: "Red vermouth" },

@@ -2,8 +2,17 @@ type Cocktail {
   name: String!
   glass: String
   category: String
-  garnish: String
+  img: String
+  ingredients: [Ingredients]
+  garnish: Int
   preparation: String
+}
+
+type Ingredients {
+  unit: String
+  amount: Float
+  ingredient: String
+  label: String
 }
 
 type Query {
