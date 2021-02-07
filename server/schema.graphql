@@ -1,5 +1,6 @@
 type Cocktail {
-  name: String!
+  id: Int
+  name: String
   glass: String
   category: String
   img: String
@@ -16,5 +17,5 @@ type Ingredients {
 }
 
 type Query {
-  cocktails: [Cocktail]
+  cocktail: [Cocktail]
 }

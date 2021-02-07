@@ -7,7 +7,10 @@ const typeDefs = gql(schema);
 
 const resolvers = {
   Query: {
-    cocktails: () => cocktails,
+    // cocktail: (args) => cocktails,
+    cocktail(args) {
+      return cocktails;
+    },
   },
 };
 
