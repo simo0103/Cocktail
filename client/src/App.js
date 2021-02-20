@@ -3,16 +3,19 @@ import "./App.css";
 import CocktailsList from "./Components/CocktailsList";
 import Navbar from "./Components/Navbar";
 import SwitchRouter from "./Components/SwitchRouter";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Navbar />
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
-      </header>
-      {/* <CocktailsList></CocktailsList> */}
-      <SwitchRouter />
+      <BrowserRouter>
+        <header className="App-header">
+          <Navbar />
+          {/* <img src={logo} className="App-logo" alt="logo" /> */}
+        </header>
+        {/* <CocktailsList></CocktailsList> */}
+        <SwitchRouter />
+      </BrowserRouter>
     </div>
   );
 }

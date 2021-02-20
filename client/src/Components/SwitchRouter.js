@@ -6,15 +6,13 @@ import Home from "./Home";
 
 export default function SwitchRouter() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/cocktails">
-          <CocktailsList />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-      </Switch>
-    </BrowserRouter>
+    <Switch>
+      <Route path="/cocktails">
+        <CocktailsList />
+      </Route>
+      <Route path="/">
+        <Home />
+      </Route>
+    </Switch>
   );
 }
